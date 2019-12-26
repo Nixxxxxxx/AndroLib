@@ -30,3 +30,17 @@ this-> Activity
 ### reminders:
 https://jitpack.io/com/github/Nixxxxxxx/AndroLib/0.0.3/build.log
 git push -u origin master
+
+
+### Using PostRequest
+Add to gradle
+implementation 'com.google.code.gson:gson:2.8.2'
+
+simple implementation of on success
+ex:    public void OnSuccess(JSONArray jsonArray) {
+        Gson gson = new Gson();
+        Eventin[] events = gson.fromJson(jsonArray.toString(), Eventin[].class);
+        for (int i = 0; i < events.length; i++) {
+            Log.i("POSTREQUEST", events[i].title + " xzxxzx " + events[i].id + " -->" + events[i].image + " xzxxzx " + events[i].start + " -->" + events[i].author);
+        }
+    }
