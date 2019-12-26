@@ -1,4 +1,4 @@
-package org.stackwizards.androlib;
+package org.stackwizards.sw_dialog;
 
 import android.app.Activity;
 import android.view.View;

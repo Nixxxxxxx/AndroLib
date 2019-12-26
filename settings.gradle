@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':sw_dialog'
 rootProject.name='AndroLib'

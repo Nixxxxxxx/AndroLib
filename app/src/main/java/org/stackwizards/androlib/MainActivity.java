@@ -6,6 +6,10 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
+import org.stackwizards.sw_dialog.FilterInterface;
+import org.stackwizards.sw_dialog.IDataAdapter;
+import org.stackwizards.sw_dialog.InfoDialog;
+
 public class MainActivity extends AppCompatActivity implements FilterInterface {
 
     @Override

@@ -1,4 +1,4 @@
-package org.stackwizards.androlib;
+package org.stackwizards.sw_dialog;
 
 import android.app.AlertDialog;
 import android.graphics.Color;
