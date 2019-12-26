@@ -34,7 +34,7 @@ public class Demo implements IPostRequestHandler {
         Gson gson = new Gson();
         Eventin[] events = gson.fromJson(jsonArray.toString(), Eventin[].class);
         for (int i = 0; i < events.length; i++) {
-            Log.i("POSTREQUEST", events[i].title + " xzxxzx " + events[i].id);
+            Log.i("POSTREQUEST", events[i].title + " xzxxzx " + events[i].id + " -->" + events[i].image + " xzxxzx " + events[i].start + " -->" + events[i].author);
         }
     }
 }
