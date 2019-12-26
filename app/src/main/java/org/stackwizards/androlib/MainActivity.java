@@ -2,15 +2,10 @@ package org.stackwizards.androlib;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.view.View;
-
-import org.stackwizards.sw_dialog.FilterInterface;
-import org.stackwizards.sw_dialog.IDataAdapter;
 import org.stackwizards.sw_dialog.InfoDialog;
 
-public class MainActivity extends AppCompatActivity implements FilterInterface {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,18 +14,4 @@ public class MainActivity extends AppCompatActivity implements FilterInterface {
         InfoDialog.showCustomDialog(this, R.raw.demo_text);
     }
 
-    @Override
-    public Activity getActivity() {
-        return this;
-    }
-
-    @Override
-    public View getView() {
-        return findViewById(android.R.id.content);
-    }
-
-    @Override
-    public void filterPositionAndCity(IDataAdapter gda) {
-
-    }
 }

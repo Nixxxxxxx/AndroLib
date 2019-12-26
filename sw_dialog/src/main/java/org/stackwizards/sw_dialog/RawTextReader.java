@@ -1,4 +1,3 @@
-
 package org.stackwizards.sw_dialog;
 
 import android.content.Context;
@@ -7,16 +6,13 @@ import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-// RawTextReader
-public class RawTextReader
-{
     /* ********************************************************************
      * Read raw text file resource...
      *
      * source: http://stackoverflow.com/questions/4087674/android-read-text-raw-resource-file
      */
-
-    // read
+public class RawTextReader
+{
     public static String read(Context context, int resId)
     {
         InputStream stream = context.getResources().openRawResource(resId);

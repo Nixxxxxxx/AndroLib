@@ -22,12 +22,10 @@ dependencies {
 
 
 ### SW_Dialog module
-as of version 0.0.2
-Activity using the module show implement the filterInterface and pass itself as instance , as well as html text, which
-normally to be found in res/raw folder(as R.raw.id_to_html).
+as of version 0.0.4
 
 ex:   InfoDialog.showCustomDialog(this, R.raw.demo_text);
-
+this-> Activity
 
 ### reminders:
 https://jitpack.io/com/github/Nixxxxxxx/AndroLib/0.0.3/build.log
