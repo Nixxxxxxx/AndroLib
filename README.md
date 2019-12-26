@@ -27,3 +27,8 @@ Activity using the module show implement the filterInterface and pass itself as 
 normally to be found in res/raw folder(as R.raw.id_to_html).
 
 ex:   InfoDialog.showCustomDialog(this, R.raw.demo_text);
+
+
+### reminders:
+https://jitpack.io/com/github/Nixxxxxxx/AndroLib/0.0.3/build.log
+git push -u origin master
